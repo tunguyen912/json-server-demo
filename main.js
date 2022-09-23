@@ -8,7 +8,7 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 
 // Add custom routes before JSON Server router
-server.get('/echo', (req, res) => {
+server.get('/eko', (req, res) => {
   res.jsonp(req.query);
 });
 
